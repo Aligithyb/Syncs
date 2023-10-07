@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizy Squeezy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="qu.png" type="image/x-icon">
+</head>
+<body>
+<div class="container">
+    <img class="banner_img" src="qu.png" alt="logo-img">
+    <div class="inputForm">
+        <div class="inputBlock">
+            <label for="Category">Category:</label>
+            <select name="Category" id="Category" >
+                <option value="history">History</option>
+                <option value="science">Science</option>
+                <option value="film">Film & TV</option>
+                <option value="music">Music</option>
+                <option value="sport_and_leisure">Sport & Leisure</option>
+                <option value="general_knowledge">General Knowledge</option>
+            </select>
+        </div>
+        <div class="inputBlock">
+            <label for="Region">Region:</label>
+            <select name="Region" id="Region">
+                <option value="EG">Egypt</option>
+                <option value="IN">India</option>
+                <option value="US">USA</option>
+            </select>
+        </div>
+        <div class="inputBlock">
+            <label for="Difficulty">Difficulty:</label>
+            <select name="Difficulty" id="Difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+    </div>
+    <div class="SqueezeButton_section">
+        <a class="btn">Let's Squeeze</a>
+    </div>
+</div>
+<div class="submit_section">
+    <button class="btn" id="submit"> Submit </button>
+    <span class="Qcount"> </span>
+</div>
+<footer>
+    Ali Ahmed </footer>
+
+<script src="main.js"></script>
+</body>
+</html>
